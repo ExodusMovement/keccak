@@ -16,7 +16,6 @@ function main (name, createHash) {
   })
 }
 
-main('bindings', require('../bindings'))
 main('pure js', require('../js'))
 
 require('./js-keccak') // special for js
